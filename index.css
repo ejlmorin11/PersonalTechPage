@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+#container {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #;
+    
+}
+
+section {
+    margin: 2rem 0;
+}
+
+body {
+    background-color:#d8cca4fa;
+  }
+
+#logo {
+    width: 12.5rem;
+    height: 6.5rem;
+    background-position: 0 0 0 25px;
+    justify-content: left;
+    margin-top: 2rem;
+}
+
+h1 {
+    display:;
+    justify-content: center;
+    padding-right:
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+
+
+.about-me {
+    display: flex;
+    border: 3px solid #eec306;
+    border-radius: 1rem;
+}
+.profile-pic{
+    max-height: 260px;
+    border: 5px solid #0a7280;
+    border-radius: .9rem;
+    
+    
+    
+}
+
+body {
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#namedate {
+    display:flex;
+    background-color: #0a7280;
+    justify-content: space-between;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: larger;
+}
+
+#choose {
+    background-color: #eec306;
+    padding: .5rem .5rem 1.5rem .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 3rem;
+    font-size: larger;
+    border: 3px solid #eec306;
+
+}
+.chose{
+    margin-left: 1.2rem;
+
+}
+
+text {
+    text-decoration-color: rgb(12, 74, 243);
+}
+
+li {list-style-type: square
+}
+
+
+.tech{
+    display:flex;
+    justify-content: space-between;
+    padding: 3px;
+    
+}
+
+
+
+figure {
+    max-width: 200px;
+    
+}
+
+.node_icon {
+    text-align: center;
+    padding-left: .5rem;
+}
+figure img{
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}
+
+figcaption{
+text-align: center;
+font-size: 1.25rem;
+position: relative;
+bottom: 15px;
+color: #ffff;
+background-color: rgba(238, 195, 6, 0.6);
+padding: .5rem;
+
+}
+.excitement {
+    color: #ffff;
+}
+
+.excitement h2 {
+    color: #eec306;
+    background-color: #0a7280;
+    margin:  1rem 0;
+    
+}
+
+.excitement div {
+    background-color: #eec306;
+    padding: 1rem;
+    
+}
+
+.excitement div h4 {
+    color: #0a7280;
+    margin: 1rem 0;
+}
+footer{
+    text-align: center;
+    margin: 5rem;
+    border: 3px solid #0a7280;
+    border-radius: 1rem;
+    
+}
