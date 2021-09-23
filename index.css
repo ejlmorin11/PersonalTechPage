@@ -9,7 +9,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #;
     
 }
 
@@ -48,13 +47,17 @@ header {
     display: flex;
     border: 3px solid #eec306;
     border-radius: 1rem;
+    margin: 2rem 1rem 1rem 1rem;
 }
 .profile-pic{
-    max-height: 260px;
+    max-height: 220px;
+    max-width: 220px;
     border: 5px solid #0a7280;
     border-radius: .9rem;
     
-    
+.bio > img {
+    height: 270px;
+}
     
 }
 
@@ -73,29 +76,29 @@ body {
     display:flex;
     background-color: #0a7280;
     justify-content: space-between;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+    margin-top: ;
     font-size: larger;
 }
 
 #choose {
     background-color: #eec306;
-    padding: .5rem .5rem 1.5rem .5rem;
-    margin-left: .5rem;
-    margin-right: .5rem;
-    margin-bottom: 3rem;
+    padding: .8rem .8rem .8rem .8rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+    margin-bottom: 
+    align-content: center;
     font-size: larger;
-    border: 3px solid #eec306;
+    
 
 }
 .chose{
-    margin-left: 1.2rem;
+    margin-left: 1.4rem;
 
 }
 
-text {
-    text-decoration-color: rgb(12, 74, 243);
-}
+
 
 li {list-style-type: square
 }
@@ -112,12 +115,14 @@ li {list-style-type: square
 
 figure {
     max-width: 200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     
 }
 
 .node_icon {
     text-align: center;
-    padding-left: .5rem;
+    padding-left: .7rem;
 }
 figure img{
     width: 200px;
@@ -137,6 +142,8 @@ padding: .5rem;
 }
 .excitement {
     color: #ffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .excitement h2 {
